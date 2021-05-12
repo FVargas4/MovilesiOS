@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B10BA67E264B64D000D6989B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10BA67D264B64D000D6989B /* DetailView.swift */; };
 		B148D6762644BEFC00488E06 /* LiveListProjectApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148D6752644BEFC00488E06 /* LiveListProjectApp.swift */; };
 		B148D6782644BEFC00488E06 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148D6772644BEFC00488E06 /* ContentView.swift */; };
 		B148D67A2644BEFD00488E06 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B148D6792644BEFD00488E06 /* Assets.xcassets */; };
 		B148D67D2644BEFD00488E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B148D67C2644BEFD00488E06 /* Preview Assets.xcassets */; };
+		B148D6862644C48800488E06 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148D6852644C48800488E06 /* CountryModel.swift */; };
+		B148D6892644C81300488E06 /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148D6882644C81300488E06 /* CountryController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B10BA67D264B64D000D6989B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		B148D6722644BEFC00488E06 /* LiveListProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LiveListProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B148D6752644BEFC00488E06 /* LiveListProjectApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveListProjectApp.swift; sourceTree = "<group>"; };
 		B148D6772644BEFC00488E06 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B148D6792644BEFD00488E06 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B148D67C2644BEFD00488E06 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B148D67E2644BEFD00488E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B148D6852644C48800488E06 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryModel.swift; path = LiveListProject/Models/CountryModel.swift; sourceTree = SOURCE_ROOT; };
+		B148D6882644C81300488E06 /* CountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +39,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B10BA679264B643500D6989B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B148D6852644C48800488E06 /* CountryModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B10BA67A264B643E00D6989B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B148D6772644BEFC00488E06 /* ContentView.swift */,
+				B10BA67D264B64D000D6989B /* DetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B10BA67B264B644900D6989B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B148D6882644C81300488E06 /* CountryController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B10BA67C264B647F00D6989B /* AuthModule */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AuthModule;
+			sourceTree = "<group>";
+		};
 		B148D6692644BEFC00488E06 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +90,11 @@
 		B148D6742644BEFC00488E06 /* LiveListProject */ = {
 			isa = PBXGroup;
 			children = (
+				B10BA67C264B647F00D6989B /* AuthModule */,
+				B10BA67B264B644900D6989B /* Controller */,
+				B10BA67A264B643E00D6989B /* Views */,
+				B10BA679264B643500D6989B /* Models */,
 				B148D6752644BEFC00488E06 /* LiveListProjectApp.swift */,
-				B148D6772644BEFC00488E06 /* ContentView.swift */,
 				B148D6792644BEFD00488E06 /* Assets.xcassets */,
 				B148D67E2644BEFD00488E06 /* Info.plist */,
 				B148D67B2644BEFD00488E06 /* Preview Content */,
@@ -140,6 +181,9 @@
 			files = (
 				B148D6782644BEFC00488E06 /* ContentView.swift in Sources */,
 				B148D6762644BEFC00488E06 /* LiveListProjectApp.swift in Sources */,
+				B148D6892644C81300488E06 /* CountryController.swift in Sources */,
+				B10BA67E264B64D000D6989B /* DetailView.swift in Sources */,
+				B148D6862644C48800488E06 /* CountryModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
