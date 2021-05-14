@@ -14,6 +14,7 @@
 		B148D67D2644BEFD00488E06 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B148D67C2644BEFD00488E06 /* Preview Assets.xcassets */; };
 		B148D6862644C48800488E06 /* CountryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148D6852644C48800488E06 /* CountryModel.swift */; };
 		B148D6892644C81300488E06 /* CountryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B148D6882644C81300488E06 /* CountryController.swift */; };
+		B18A0498264E045E00F6559B /* AddCountryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B18A0497264E045E00F6559B /* AddCountryView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		B148D67E2644BEFD00488E06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B148D6852644C48800488E06 /* CountryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CountryModel.swift; path = LiveListProject/Models/CountryModel.swift; sourceTree = SOURCE_ROOT; };
 		B148D6882644C81300488E06 /* CountryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryController.swift; sourceTree = "<group>"; };
+		B18A0497264E045E00F6559B /* AddCountryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCountryView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			children = (
 				B148D6772644BEFC00488E06 /* ContentView.swift */,
 				B10BA67D264B64D000D6989B /* DetailView.swift */,
+				B18A0497264E045E00F6559B /* AddCountryView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				B148D6892644C81300488E06 /* CountryController.swift in Sources */,
 				B10BA67E264B64D000D6989B /* DetailView.swift in Sources */,
 				B148D6862644C48800488E06 /* CountryModel.swift in Sources */,
+				B18A0498264E045E00F6559B /* AddCountryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
