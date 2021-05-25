@@ -7,9 +7,9 @@
 
 import Foundation
 
-class CountryController {
+class CountryController: ObservableObject {
     // Create a variable which will hold the data for the list
-    var countryList: [CountryModel]
+    @Published var countryList: [CountryModel]
     
     init() {
         //put some Objects into the array - Constructor
@@ -22,7 +22,7 @@ class CountryController {
             
         ]
     }
-    //func addCountry(country:){
-        
-//    }
+    func addCountry(newCountry: CountryModel){
+        countryList.append(newCountry)
+    }
 }
